@@ -2,11 +2,6 @@ require "url_parser"
 
 # https://sites.google.com/site/tddproblems/all-problems-1/URL-splitting
 
-# Develop a class that decomposes a given URL into its constituents. In the above example, we would like to get the result
-# The protocol: "http"
-# The domain name: "www.google.se"
-# The path: site/tddproblems/all-problems-1/URL-splitting
-
 describe UrlParser do
   describe '.parse' do
 
